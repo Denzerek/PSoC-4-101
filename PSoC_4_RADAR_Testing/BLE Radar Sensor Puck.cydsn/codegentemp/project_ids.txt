@@ -1,0 +1,10 @@
+C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\Design01.cydsn\Design01.cyprj|e03a55d3-ed89-4449-965b-5fe435315538
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|b84ebfdc-6069-476d-860a-0ae8c02f1c9d
+C:\Users\Austina\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|bbab61b6-7baf-4f60-815c-a8f029f357df
+C:\Users\Austina\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|6d869d3e-654a-4852-a758-68fe372849af
+C:\Users\Austina\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|29aec7db-f8b2-417c-a769-5ce281f59c0e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|a68f80a2-534d-4192-99cc-24a806ccb4d5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|fefe4469-6465-48c7-b0db-acd7e500ec87
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|204c1fe5-702c-475c-bf72-3701bbb9ff8a
+C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\BLE Radar Sensor Puck.cyprj|b048e896-16c7-4211-b7ef-3ce726d1e2ec
+C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\BLE_FindMe01.cydsn\BLE_FindMe01.cyprj|dd1ed0cb-75a1-4702-995e-dca167356529

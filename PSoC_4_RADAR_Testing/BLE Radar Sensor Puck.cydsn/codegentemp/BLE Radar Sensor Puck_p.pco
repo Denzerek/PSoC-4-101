@@ -1,0 +1,29 @@
+dont_use_io iocell 0 6
+dont_use_io iocell 0 7
+dont_use_location LPCOMP -1 -1 0
+dont_use_location p4lpcompcell -1 -1 0
+dont_use_location LPCOMP -1 -1 1
+dont_use_location p4lpcompcell -1 -1 1
+dont_use_location mxs40_opamp -1 -1 0
+dont_use_location p4abufcell -1 -1 0
+dont_use_location mxs40_opamp -1 -1 1
+dont_use_location p4abufcell -1 -1 1
+dont_use_location mxs40_opamp -1 -1 2
+dont_use_location p4abufcell -1 -1 2
+dont_use_location mxs40_opamp -1 -1 3
+dont_use_location p4abufcell -1 -1 3
+set_io "\UART:rx(0)\" iocell 1 4
+set_location "\BLE:cy_m0s8_ble\" p4blecell -1 -1 0
+set_location "ClockBlock" m0s8clockblockcell -1 -1 0
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_io "\UART:tx(0)\" iocell 1 5
+set_location "\Timer:cy_m0s8_tcpwm_1\" m0s8tcpwmcell -1 -1 0
+set_location "\BLE:bless_isr\" interrupt -1 -1 12
+set_location "PHASE_DETECT_INT" interrupt -1 -1 3
+set_location "TC_Interrupt" interrupt -1 -1 17
+set_io "TARGET_DETECT(0)" iocell 0 4
+set_location "PHASE_DETECT" logicalport -1 -1 3
+set_io "PHASE_DETECT(0)" iocell 3 5
+set_io "LED_DSLEEP_GREEN(0)" iocell 3 6
+set_io "LED_SLEEP_BLUE(0)" iocell 3 7
+set_location "\UART:SCB\" m0s8scbcell -1 -1 0
