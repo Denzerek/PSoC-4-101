@@ -21,7 +21,7 @@ CY_ISR(phaseDetect_interruptHandler)
             LED_1_Write(1); 
         }
         else
-        {
+        { 
             UART_UartPutString("INTERRUPT TARGET DETECT LOW \r\n");
             LED_1_Write(0);
         }
