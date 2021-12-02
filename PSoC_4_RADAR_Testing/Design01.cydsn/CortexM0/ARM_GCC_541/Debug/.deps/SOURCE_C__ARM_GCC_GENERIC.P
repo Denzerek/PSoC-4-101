@@ -1,0 +1,146 @@
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/ADC_In.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/ADC_In_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_HAL_PVT.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_STACK_PVT.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_Stack.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackGap.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackGatt.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackGattClient.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackGattDb.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackGattServer.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackHostMain.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackL2cap.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_bas.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_bless_isr.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_dis.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_eventHandler.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_gatt.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_hids.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_scps.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/Clock_1.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/CyDMA.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/LED_1.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/LED_1_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/LED_2.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/LED_2_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/PHASE_DETECT.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/PHASE_DETECT_INT.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/PHASE_DETECT_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW1.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW1_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW2.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW2_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW3.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW3_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW4.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW4_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW5.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW5_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/TARGET_DETECT.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/TARGET_DETECT_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/TCPWM_1.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_BOOT.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cyPm.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/project.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/timerInt.h C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/main.c 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/ADC_In.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/ADC_In_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_HAL_PVT.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_STACK_PVT.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_Stack.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackGap.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackGatt.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackGattClient.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackGattDb.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackGattServer.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackHostMain.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_StackL2cap.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_bas.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_bless_isr.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_dis.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_eventHandler.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_gatt.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_hids.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/BLE_1_scps.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/Clock_1.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/CyDMA.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/LED_1.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/LED_1_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/LED_2.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/LED_2_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/PHASE_DETECT.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/PHASE_DETECT_INT.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/PHASE_DETECT_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW1.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW1_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW2.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW2_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW3.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW3_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW4.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW4_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW5.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/SW5_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/TARGET_DETECT.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/TARGET_DETECT_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/TCPWM_1.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_BOOT.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_PINS.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_PVT.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_rx.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_tx.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/project.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/Generated_Source/PSoC4/timerInt.h : 
+
+C:/Alen/test/lowPowerTesting/Workspace09/Design01.cydsn/main.c : 
+
