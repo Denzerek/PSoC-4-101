@@ -11,33 +11,47 @@
 */
 #include <project.h>
 
+//#define serialDebug  UART_UartPutString
+#define serialDebug  
+#define serialMain  UART_UartPutString
+
+#define ENABLE_PHASE_SIMULATION
+
+
+volatile static uint8_t phaseState;
+
 
 CY_ISR(phaseDetect_interruptHandler)
 {
-   UART_UartPutString("INTERRUPT Phase Interrupt \r\n");
-        if(TARGET_DETECT_Read())
-        {
-            UART_UartPutString("INTERRUPT TARGET DETECT HIGH \r\n");
-            LED_1_Write(1); 
-        }
-        else
-        { 
-            UART_UartPutString("INTERRUPT TARGET DETECT LOW \r\n");
-            LED_1_Write(0);
-        }
+   serialDebug("INTERRUPT Phase Interrupt \r\n");
+    
+    #ifdef ENABLE_PHASE_SIMULATION
+    if(!PHASE_DETECT_Read())
+    #else
+    if(PHASE_DETECT_Read())
+    #endif
+    {
+        serialDebug("INTERRUPT PHASE DETECT HIGH \r\n");
+        phaseState = 1;
+    }
+    else
+    { 
+        serialDebug("INTERRUPT PHASE DETECT LOW \r\n");
+        phaseState = 1;
+    }
     PHASE_DETECT_ClearInterrupt();
 }
 
 CY_ISR(Timer_interruptHandler)
 {
-    UART_UartPutString("INTERRUPT Timer Terminal count \r\n");
+    serialDebug("INTERRUPT Timer Terminal count \r\n");
     TCPWM_1_ClearInterrupt(TCPWM_1_INTR_MASK_TC);
 }
 
 int main (void)
 {
     UART_Start();
-    UART_UartPutString("\r\n GPIO Pin Testing \r\n");
+    serialDebug("\r\n GPIO Pin Testing \r\n");
     
     PHASE_DETECT_INT_StartEx(phaseDetect_interruptHandler);
     TCPWM_1_Start();
@@ -50,10 +64,33 @@ int main (void)
     for(;;)
     {
         
-        UART_UartPutString("Entering Deep Sleep\r\n");
+        serialDebug("Entering Deep Sleep\r\n\n");
         CyDelay(10);
         CySysPmDeepSleep();
-        UART_UartPutString("Exiting Deep Sleep\r\n");
+        serialDebug("Exiting Deep Sleep\r\n");
+        
+        if(!PHASE_DETECT_Read())
+        {
+            if(TARGET_DETECT_Read())
+            {
+                serialMain("TARGET Invalid \r\n");
+            }
+            else
+            { 
+                serialMain("TARGET APPROACHING \r\n");
+            }
+        }
+        else
+        {
+            if(TARGET_DETECT_Read())
+            {
+                serialMain("TARGET Invalid \r\n");
+            }
+            else
+            { 
+                serialMain("TARGET DEPARTING \r\n");
+            }
+        }
         CyDelay(10);
         
         
