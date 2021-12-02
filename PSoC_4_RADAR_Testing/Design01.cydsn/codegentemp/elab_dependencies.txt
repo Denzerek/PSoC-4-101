@@ -1,4 +1,4 @@
-C:\Alen\test\lowPowerTesting\Workspace09\Design01.cydsn\TopDesign\TopDesign.cysch
+C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\Design01.cydsn\TopDesign\TopDesign.cysch
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SCB_P4_v4_0\SCB_P4_v4_0.cysym
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SCB_P4_v4_0\SCB_P4_v4_0.pdf
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SCB_P4_v4_0\SCB_P4_v4_0.cycdx
@@ -335,7 +335,7 @@ C:\Users\Austina\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\cy_isr_v1_71\
 C:\Users\Austina\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\cy_isr_v1_71\Custom\custom.cs
 C:\Users\Austina\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\cy_isr_v1_71\PSoC4\API\intc.c
 C:\Users\Austina\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\cy_isr_v1_71\PSoC4\API\intc.h
-C:\Alen\test\lowPowerTesting\Workspace09\Design01.cydsn\Design01.cydwr
+C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\Design01.cydsn\Design01.cydwr
 C:\Users\Austina\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\cy_boot_v6_10\PSoC4\API\cm0gcc.ld
 C:\Users\Austina\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\cy_boot_v6_10\PSoC4\API\Cm0RealView.scat
 C:\Users\Austina\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\cy_boot_v6_10\PSoC4\API\Cm0Start.c
