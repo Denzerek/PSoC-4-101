@@ -18,7 +18,7 @@ CY_ISR(phaseDetect_interruptHandler)
         if(TARGET_DETECT_Read())
         {
             UART_UartPutString("INTERRUPT TARGET DETECT HIGH \r\n");
-            LED_1_Write(1);
+            LED_1_Write(1); 
         }
         else
         {
