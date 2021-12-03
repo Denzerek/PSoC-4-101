@@ -71,6 +71,8 @@
   <file name="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\codegentemp\LED_SLEEP_BLUE.h" value="HEADER;;;;;LED_SLEEP_BLUE" />
   <file name="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\codegentemp\LED_SLEEP_BLUE_aliases.h" value="HEADER;;;;;LED_SLEEP_BLUE" />
   <file name="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\codegentemp\LED_SLEEP_BLUE_PM.c" value="SOURCE_C;CortexM0;;;;LED_SLEEP_BLUE" />
+  <file name="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\codegentemp\TARGET_DETECT_INT.c" value="SOURCE_C;CortexM0;;;;TARGET_DETECT_INT" />
+  <file name="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\codegentemp\TARGET_DETECT_INT.h" value="HEADER;;;;;TARGET_DETECT_INT" />
   <file name="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\codegentemp\UART_SCBCLK.c" value="SOURCE_C;CortexM0;;;;UART_SCBCLK" />
   <file name="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
   <file name="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\codegentemp\UART_tx.c" value="SOURCE_C;CortexM0;;;;UART_tx" />

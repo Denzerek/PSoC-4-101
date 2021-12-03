@@ -478,13 +478,15 @@
 <v>Generated_Source\PSoC4\LED_SLEEP_BLUE.h</v>
 <v>Generated_Source\PSoC4\LED_SLEEP_BLUE_aliases.h</v>
 <v>Generated_Source\PSoC4\LED_SLEEP_BLUE_PM.c</v>
+<v>Generated_Source\PSoC4\TARGET_DETECT_INT.c</v>
+<v>Generated_Source\PSoC4\TARGET_DETECT_INT.h</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="132829410369258714" />
+<deps_time v="132829803840107323" />
 <top_block v="TopDesign" />
 <last_generation v="0" />
 <pdl_path v="" />
@@ -526,6 +528,7 @@
 <dep name=".\Generated_Source\PSoC4\PHASE_DETECT_INT.h" />
 <dep name=".\Generated_Source\PSoC4\PHASE_DETECT_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\TARGET_DETECT.h" />
+<dep name=".\Generated_Source\PSoC4\TARGET_DETECT_INT.h" />
 <dep name=".\Generated_Source\PSoC4\TARGET_DETECT_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\TC_Interrupt.h" />
 <dep name=".\Generated_Source\PSoC4\Timer.h" />
@@ -584,6 +587,7 @@
 <file name=".\Generated_Source\PSoC4\PHASE_DETECT_INT.h" />
 <file name=".\Generated_Source\PSoC4\PHASE_DETECT_aliases.h" />
 <file name=".\Generated_Source\PSoC4\TARGET_DETECT.h" />
+<file name=".\Generated_Source\PSoC4\TARGET_DETECT_INT.h" />
 <file name=".\Generated_Source\PSoC4\TARGET_DETECT_aliases.h" />
 <file name=".\Generated_Source\PSoC4\TC_Interrupt.h" />
 <file name=".\Generated_Source\PSoC4\Timer.h" />
@@ -905,6 +909,17 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\TARGET_DETECT.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\TARGET_DETECT_INT.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\TARGET_DETECT_INT.c" />
+<dep name=".\Generated_Source\PSoC4\TARGET_DETECT_INT.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\TARGET_DETECT_INT.c" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\TARGET_DETECT_PM.o">
 <dep name=".\Generated_Source\PSoC4\TARGET_DETECT.h" />
 <dep name=".\Generated_Source\PSoC4\TARGET_DETECT_PM.c" />
@@ -1185,6 +1200,10 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\cymetadata.o">
+<dep name=".\Generated_Source\PSoC4\cymetadata.c" />
+</file>
+<file name=".\Generated_Source\PSoC4\cymetadata.c" />
 <file name=".\Generated_Source\PSoC4\LED_DSLEEP.h" />
 <file name=".\Generated_Source\PSoC4\LED_DSLEEP_aliases.h" />
 <file name=".\Generated_Source\PSoC4\LED_SLEEP.h" />
@@ -1229,10 +1248,6 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\LED_SLEEP_PM.c" />
-<file name=".\CortexM0\ARM_GCC_541\Debug\cymetadata.o">
-<dep name=".\Generated_Source\PSoC4\cymetadata.c" />
-</file>
-<file name=".\Generated_Source\PSoC4\cymetadata.c" />
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
 </dependency_info>
 </CyGuid_f44455c5-3770-4452-b988-0a7a7ff46256>
@@ -1286,6 +1301,7 @@
 <dep name=".\CortexM0\ARM_GCC_541\Debug\LED_DSLEEP_GREEN_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\LED_SLEEP_BLUE.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\LED_SLEEP_BLUE_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\TARGET_DETECT_INT.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\BLE Radar Sensor Puck.a" />
 </file>
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
@@ -1347,6 +1363,7 @@
 <name_val_pair name="Generated_Source\PSoC4\LED_DSLEEP_GREEN_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="Generated_Source\PSoC4\LED_SLEEP_BLUE.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="Generated_Source\PSoC4\LED_SLEEP_BLUE_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\TARGET_DETECT_INT.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\Austina\AppData\Local\Cypress Semiconductor\PSoC Creator\4.4&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p &quot;C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\BLE Radar Sensor Puck.cyprj&quot; -d CYBLE-222014-01 -s &quot;C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\Generated_Source\PSoC4&quot; -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -1355,7 +1372,7 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="132829422761624261" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="132829806926696640" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>

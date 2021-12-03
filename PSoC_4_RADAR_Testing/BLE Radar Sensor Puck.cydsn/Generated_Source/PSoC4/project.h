@@ -50,6 +50,7 @@
 #include "LED_DSLEEP_GREEN_aliases.h"
 #include "LED_SLEEP_BLUE.h"
 #include "LED_SLEEP_BLUE_aliases.h"
+#include "TARGET_DETECT_INT.h"
 #include "UART_SCBCLK.h"
 #include "UART_tx.h"
 #include "UART_tx_aliases.h"

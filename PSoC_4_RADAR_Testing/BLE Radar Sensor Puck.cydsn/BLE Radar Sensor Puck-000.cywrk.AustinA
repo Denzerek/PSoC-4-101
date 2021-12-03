@@ -92,7 +92,12 @@
 <v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_SLEEP_BLUE.lst</v>
 <v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_SLEEP_BLUE_PM.lst</v>
 <v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\PHASE_DETECT.lst</v>
 <v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\PHASE_DETECT_INT.lst</v>
+<v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\PHASE_DETECT_PM.lst</v>
+<v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\TARGET_DETECT.lst</v>
+<v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\TARGET_DETECT_INT.lst</v>
+<v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\TARGET_DETECT_PM.lst</v>
 <v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\TC_Interrupt.lst</v>
 <v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
 <v>BLE Radar Sensor Puck-000\BLE Radar Sensor Puck\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer_PM.lst</v>
@@ -374,7 +379,25 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\main.c" />
+<name v="..\Design01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\BLE Radar Sensor Puck.cydwr" />
+<name v="..\Design01.cydsn\Design01.cydwr" />
+<name v="..\Design01.cydsn\main.c" />
+<name v=".\BLE_FindMe01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\BLE_FindMe01.cydsn\BLE_FindMe01.cydwr" />
+<name v=".\BLE_FindMe01.cydsn\main.c" />
+<name v=".\BLE_FindMe01.cydsn\ias.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="748, 595" SelectedTabbedMdiWindow="3feafbcc-754f-4e28-b7e4-7e562b65eb3f"><DocumentWindow Key="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\main.c" Guid="3feafbcc-754f-4e28-b7e4-7e562b65eb3f" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="7df3e12b-ab1e-4471-bb7b-75fbf0c04388" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\TopDesign\TopDesign.cysch" Guid="db05042e-3abc-4203-ba7e-4eb0a0524460" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\BLE Radar Sensor Puck.cydwr" Guid="8184d286-8aff-4724-a918-edb95f7b59c9" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\Design01.cydsn\Design01.cydwr" Guid="6a605bc5-5254-47d3-ac60-81c65d28c991" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\Design01.cydsn\main.c" Guid="34378e60-6bf5-4e7c-8d20-3f086e298ca1" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\BLE_FindMe01.cydsn\TopDesign\TopDesign.cysch" Guid="861465a7-bc07-49f0-b6b0-9cc01e188946" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\BLE_FindMe01.cydsn\BLE_FindMe01.cydwr" Guid="b68a8a62-c282-4078-803b-acd946c9ee5d" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\BLE_FindMe01.cydsn\main.c" Guid="f8c3371f-a0b1-4372-a749-d4799997d2b8" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\PSoC-4-101\PSoC_4_RADAR_Testing\BLE Radar Sensor Puck.cydsn\BLE_FindMe01.cydsn\ias.c" Guid="9d8b330b-4353-49fc-90a5-5a3296434f3f" /><ToolWindow Key="Output Window Plugin:7305390e-eabe-4963-b21f-3a0f11b4b1d5:Output Window" Guid="73de7761-3dbb-47a0-9a93-9d6338c3a45f" /><ToolWindow Key="CyNoticeWindow:44d3d453-9474-4f2b-b928-4356f496bef0:Notice Window" Guid="03a3c053-f83a-4e52-80fe-5c69f4f00d6c" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ed9336ec-60ed-40c8-8473-b06c5b92c52c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

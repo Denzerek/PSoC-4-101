@@ -1,6 +1,6 @@
 // ======================================================================
 // BLE Radar Sensor Puck.v generated from TopDesign.cysch
-// 12/02/2021 at 23:20
+// 12/03/2021 at 10:16
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -671,6 +671,7 @@ module top ;
           wire  Net_3;
           wire  Net_2;
           wire  Net_1;
+          wire  Net_64;
           wire  Net_397;
           wire  Net_51;
           wire  Net_49;
@@ -813,7 +814,6 @@ module top ;
 	wire [0:0] tmpOE__TARGET_DETECT_net;
 	wire [0:0] tmpFB_0__TARGET_DETECT_net;
 	wire [0:0] tmpIO_0__TARGET_DETECT_net;
-	wire [0:0] tmpINTERRUPT_0__TARGET_DETECT_net;
 	electrical [0:0] tmpSIOVREF__TARGET_DETECT_net;
 
 	cy_psoc3_pins_v1_10
@@ -824,7 +824,7 @@ module top ;
 		  .input_clk_en(0),
 		  .input_sync(1'b0),
 		  .input_sync_mode(1'b0),
-		  .intr_mode(2'b00),
+		  .intr_mode(2'b11),
 		  .invert_in_clock(0),
 		  .invert_in_clock_en(0),
 		  .invert_in_reset(0),
@@ -875,7 +875,7 @@ module top ;
 		  .fb({tmpFB_0__TARGET_DETECT_net[0:0]}),
 		  .io({tmpIO_0__TARGET_DETECT_net[0:0]}),
 		  .siovref(tmpSIOVREF__TARGET_DETECT_net),
-		  .interrupt({tmpINTERRUPT_0__TARGET_DETECT_net[0:0]}),
+		  .interrupt({Net_64}),
 		  .in_clock({1'b0}),
 		  .in_clock_en({1'b1}),
 		  .in_reset({1'b0}),
@@ -1041,6 +1041,13 @@ module top ;
 		  .out_reset({1'b0}));
 
 	assign tmpOE__LED_SLEEP_BLUE_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
+
+
+	cy_isr_v1_0
+		#(.int_type(2'b10))
+		TARGET_DETECT_INT
+		 (.int_signal(Net_64));
+
 
 
 

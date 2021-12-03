@@ -30,6 +30,17 @@
 bool charNotificationEnabled = false;
 uint8_t data;
 bool Timerflag = false;
+volatile static uint8_t phaseInterruptFlag;
+volatile static uint8_t targetInterruptFlag;
+
+
+
+/*******************************************************************************
+* Function Prototypes
+*******************************************************************************/
+void systemPowerManagement();
+void applicationRun();
+
 /*******************************************************************************
 * Function Definitions
 *******************************************************************************/
@@ -79,7 +90,7 @@ void StackEventHandler(uint32 eventCode, void * eventParam)
             {
                 CyBle_GappStartAdvertisement(CYBLE_ADVERTISING_FAST);
                  //UART_UartPutString("\n\rAdvertising stopped restarted again. ");
-            UART_UartPutString("16 \r\n");
+                UART_UartPutString("16 \r\n");
             }
             break;
 
@@ -254,13 +265,23 @@ void Read_Gpio(void)
         }
 }    
 
-volatile static uint8_t phaseInterruptFlag;
+
 CY_ISR(phaseDetect_interruptHandler)
 {
    serialDebug("IP\r\n");
     phaseInterruptFlag = 1;
     PHASE_DETECT_ClearInterrupt();
 }
+
+
+CY_ISR(targetDetect_interruptHandler)
+{
+   serialDebug("IT\r\n");
+    targetInterruptFlag = 1;
+    TARGET_DETECT_ClearInterrupt();
+}
+
+
 /*******************************************************************************
 * Function Name: main()
 ********************************************************************************
@@ -300,6 +321,10 @@ int main()
     SLEEP_LED_BLUE_OFF();
     
     PHASE_DETECT_INT_StartEx(phaseDetect_interruptHandler);
+    
+    
+    TARGET_DETECT_INT_StartEx(targetDetect_interruptHandler);
+    
     /* Clear screen and put a welcome message */
     UART_UartPutString("\r\nBLE Radar Puck\r\n");
     
@@ -307,14 +332,30 @@ int main()
     
     for(;;)
     {
-        
-        static uint8 toggleTimeout = 0;
-        CYBLE_BLESS_STATE_T blessState;
-        uint8 intrStatus;
-
         /* Single API call to service all the BLE stack events. Must be
          * called at least once in a BLE connection interval */
         CyBle_ProcessEvents();
+        
+        /* Routine that handles application */
+        applicationRun();
+        
+        /* BLE power management routine */
+        systemPowerManagement();
+    }
+}
+
+
+void applicationRun()
+{
+        if(targetInterruptFlag)
+        {
+            //If there is a cahnge in target pin polarity,then check 
+            // if the target pin is in high or low state to verify target presence
+            //assuming that phase pin is alwasy in either high or low state,
+            //irrespective of the target presence
+            targetInterruptFlag = 0;
+            phaseInterruptFlag = 1;
+        }
         
         if(phaseInterruptFlag){
             phaseInterruptFlag = 0;
@@ -351,6 +392,16 @@ int main()
                 }
             }
         }
+       
+}
+
+
+void systemPowerManagement()
+{
+        static uint8 toggleTimeout = 0;
+        CYBLE_BLESS_STATE_T blessState;
+        uint8 intrStatus;
+    
         /* Configure BLESS in Deep-Sleep mode */
         CyBle_EnterLPM(CYBLE_BLESS_DEEPSLEEP);
         
@@ -387,12 +438,12 @@ int main()
         {
             /* Keep trying to enter either Sleep or Deep-Sleep mode */    
         }
+        
+        DSLEEP_LED_GREEN_OFF();
+        SLEEP_LED_BLUE_OFF();
         CyExitCriticalSection(intrStatus);
         
        
-       
-    }
 }
-
 
 /* [] END OF FILE */
